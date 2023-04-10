@@ -1,9 +1,77 @@
-<mxfile host="app.diagrams.net" modified="2023-04-10T05:30:28.201Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/16.1 Safari/605.1.15" version="21.1.5" etag="vMyJqSyMcMbcJbASd4BC" type="github">
+<mxfile host="app.diagrams.net" modified="2023-04-10T05:45:50.870Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/16.1 Safari/605.1.15" etag="Y_Ha9xt2JyAQdueyKeDP" version="21.1.5" type="github">
   <diagram name="第 1 页" id="AXh3GehicBw4GmVFm9w0">
-    <mxGraphModel>
+    <mxGraphModel dx="795" dy="563" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="1-wVPtT3jSuCfqSQY2wI-1" value="双端统一开户" style="whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+          <mxGeometry x="300" y="180" width="120" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="1-wVPtT3jSuCfqSQY2wI-16" value="大丰钱包" style="whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+          <mxGeometry x="50" y="200" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="1-wVPtT3jSuCfqSQY2wI-17" value="大丰App" style="whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+          <mxGeometry x="640" y="200" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="1-wVPtT3jSuCfqSQY2wI-18" value="" style="endArrow=classic;html=1;rounded=0;entryX=-0.017;entryY=0.325;entryDx=0;entryDy=0;exitX=1;exitY=0.25;exitDx=0;exitDy=0;entryPerimeter=0;" edge="1" parent="1" source="1-wVPtT3jSuCfqSQY2wI-16" target="1-wVPtT3jSuCfqSQY2wI-1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="150" y="240" as="sourcePoint" />
+            <mxPoint x="200" y="190" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="1-wVPtT3jSuCfqSQY2wI-24" value="开户" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="1-wVPtT3jSuCfqSQY2wI-18">
+          <mxGeometry x="0.0955" y="-1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="1-wVPtT3jSuCfqSQY2wI-19" value="" style="endArrow=classic;html=1;rounded=0;entryX=1;entryY=0.308;entryDx=0;entryDy=0;entryPerimeter=0;exitX=0;exitY=0.25;exitDx=0;exitDy=0;" edge="1" parent="1" source="1-wVPtT3jSuCfqSQY2wI-17" target="1-wVPtT3jSuCfqSQY2wI-1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="630" y="217" as="sourcePoint" />
+            <mxPoint x="580" y="210" as="targetPoint" />
+            <Array as="points" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="1-wVPtT3jSuCfqSQY2wI-25" value="开户" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="1-wVPtT3jSuCfqSQY2wI-19">
+          <mxGeometry x="-0.1271" y="-2" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="1-wVPtT3jSuCfqSQY2wI-22" value="" style="endArrow=classic;html=1;rounded=0;entryX=1.025;entryY=0.613;entryDx=0;entryDy=0;entryPerimeter=0;exitX=-0.033;exitY=0.575;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="1-wVPtT3jSuCfqSQY2wI-1" target="1-wVPtT3jSuCfqSQY2wI-16">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="190" y="300" as="sourcePoint" />
+            <mxPoint x="240" y="250" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="1-wVPtT3jSuCfqSQY2wI-27" value="jsapi" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="1-wVPtT3jSuCfqSQY2wI-22">
+          <mxGeometry x="-0.0241" y="-1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="1-wVPtT3jSuCfqSQY2wI-23" value="" style="endArrow=classic;html=1;rounded=0;entryX=-0.012;entryY=0.625;entryDx=0;entryDy=0;exitX=1.025;exitY=0.558;exitDx=0;exitDy=0;exitPerimeter=0;entryPerimeter=0;" edge="1" parent="1" source="1-wVPtT3jSuCfqSQY2wI-1" target="1-wVPtT3jSuCfqSQY2wI-17">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="490" y="310" as="sourcePoint" />
+            <mxPoint x="540" y="260" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="1-wVPtT3jSuCfqSQY2wI-26" value="jsapi" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="1-wVPtT3jSuCfqSQY2wI-23">
+          <mxGeometry x="0.0647" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="1-wVPtT3jSuCfqSQY2wI-28" value="后台接口" style="whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+          <mxGeometry x="300" y="380" width="120" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="1-wVPtT3jSuCfqSQY2wI-29" value="" style="endArrow=classic;html=1;rounded=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="1-wVPtT3jSuCfqSQY2wI-1" target="1-wVPtT3jSuCfqSQY2wI-28">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="480" y="380" as="sourcePoint" />
+            <mxPoint x="530" y="330" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="1-wVPtT3jSuCfqSQY2wI-30" value="请求头" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="1-wVPtT3jSuCfqSQY2wI-29">
+          <mxGeometry x="-0.05" y="2" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
