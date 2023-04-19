@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-04-19T02:12:40.511Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/16.1 Safari/605.1.15" etag="UWiFv_MuAFuLW4nu6Cwk" version="21.1.5" type="github" pages="3">
+<mxfile host="app.diagrams.net" modified="2023-04-19T02:14:49.601Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/16.1 Safari/605.1.15" etag="RI839E5ytMKHIo1QjRJx" version="21.1.5" type="github" pages="3">
   <diagram name="第 1 页" id="AXh3GehicBw4GmVFm9w0">
     <mxGraphModel dx="1577" dy="823" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -374,29 +374,20 @@
     </mxGraphModel>
   </diagram>
   <diagram id="PaUstmof9E0MY2lUFWom" name="第 3 页">
-    <mxGraphModel dx="1577" dy="1992" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1577" dy="823" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
-        <mxCell id="9BLjpIVopT5HUVezvgKf-1" value="启动公众号" style="whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
-          <mxGeometry x="160" y="270" width="80" height="80" as="geometry" />
-        </mxCell>
         <mxCell id="9BLjpIVopT5HUVezvgKf-2" value="判断能否拿到cookie？" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="160" y="450" width="80" height="80" as="geometry" />
+          <mxGeometry x="155" y="450" width="90" height="90" as="geometry" />
         </mxCell>
         <mxCell id="9BLjpIVopT5HUVezvgKf-3" value="initSDK" style="whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
           <mxGeometry x="180" y="620" width="80" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="9BLjpIVopT5HUVezvgKf-4" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="9BLjpIVopT5HUVezvgKf-1" target="9BLjpIVopT5HUVezvgKf-2">
-          <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="390" y="420" as="sourcePoint" />
-            <mxPoint x="440" y="370" as="targetPoint" />
-          </mxGeometry>
-        </mxCell>
         <mxCell id="9BLjpIVopT5HUVezvgKf-5" value="静默登录，调用ams_gzh_login.fcgi接口获取登录态" style="whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
           <mxGeometry x="390" y="450" width="120" height="120" as="geometry" />
         </mxCell>
-        <mxCell id="9BLjpIVopT5HUVezvgKf-6" value="" style="endArrow=classic;html=1;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=-0.017;entryY=0.342;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="9BLjpIVopT5HUVezvgKf-2" target="9BLjpIVopT5HUVezvgKf-5">
+        <mxCell id="9BLjpIVopT5HUVezvgKf-6" value="" style="endArrow=classic;html=1;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=-0.033;entryY=0.383;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="9BLjpIVopT5HUVezvgKf-2" target="9BLjpIVopT5HUVezvgKf-5">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="330" y="610" as="sourcePoint" />
             <mxPoint x="380" y="560" as="targetPoint" />
@@ -418,37 +409,37 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="9BLjpIVopT5HUVezvgKf-13" value="WX注入cookie" style="whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
-          <mxGeometry x="160" y="120" width="80" height="80" as="geometry" />
+          <mxGeometry x="160" y="300" width="80" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="9BLjpIVopT5HUVezvgKf-14" value="启动微信" style="whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
-          <mxGeometry x="160" y="-30" width="80" height="80" as="geometry" />
+        <mxCell id="9BLjpIVopT5HUVezvgKf-14" value="启动公众号" style="whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+          <mxGeometry x="160" y="150" width="80" height="80" as="geometry" />
         </mxCell>
         <mxCell id="9BLjpIVopT5HUVezvgKf-15" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="9BLjpIVopT5HUVezvgKf-14" target="9BLjpIVopT5HUVezvgKf-13">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="280" y="100" as="sourcePoint" />
-            <mxPoint x="330" y="50" as="targetPoint" />
+            <mxPoint x="280" y="280" as="sourcePoint" />
+            <mxPoint x="330" y="230" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="9BLjpIVopT5HUVezvgKf-16" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="199.5" y="200" as="sourcePoint" />
-            <mxPoint x="199.5" y="270" as="targetPoint" />
+            <mxPoint x="199.5" y="380" as="sourcePoint" />
+            <mxPoint x="199.5" y="450" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="9BLjpIVopT5HUVezvgKf-17" value="" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.annotation_2;align=left;labelPosition=right;pointerEvents=1;" vertex="1" parent="1">
-          <mxGeometry x="240" y="110" width="50" height="100" as="geometry" />
+          <mxGeometry x="240" y="290" width="50" height="100" as="geometry" />
         </mxCell>
         <mxCell id="9BLjpIVopT5HUVezvgKf-18" value="opened" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
-          <mxGeometry x="290" y="95" width="60" height="30" as="geometry" />
+          <mxGeometry x="290" y="275" width="60" height="30" as="geometry" />
         </mxCell>
         <mxCell id="9BLjpIVopT5HUVezvgKf-19" value="&lt;p style=&quot;margin: 0px; font-stretch: normal; font-size: 13px; line-height: normal; font-family: &amp;quot;Helvetica Neue&amp;quot;;&quot;&gt;app_session_key&lt;/p&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
-          <mxGeometry x="280" y="125" width="130" height="30" as="geometry" />
+          <mxGeometry x="280" y="305" width="130" height="30" as="geometry" />
         </mxCell>
         <mxCell id="9BLjpIVopT5HUVezvgKf-20" value="uid" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
-          <mxGeometry x="290" y="165" width="40" height="30" as="geometry" />
+          <mxGeometry x="290" y="345" width="40" height="30" as="geometry" />
         </mxCell>
         <mxCell id="9BLjpIVopT5HUVezvgKf-21" value="appid" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
-          <mxGeometry x="290" y="195" width="50" height="30" as="geometry" />
+          <mxGeometry x="290" y="375" width="50" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
